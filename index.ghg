@@ -1,0 +1,16 @@
+.x-blue{
+    background-color: rgb(74, 104, 240);
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    position: fixed;
+    transform: translate(40%, 17%);
+}
+.y-green{
+    background-color: rgb(56, 190, 30);
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    position: fixed;
+    transform: translate(185%, 17%);
+}
