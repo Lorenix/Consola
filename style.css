@@ -13,16 +13,9 @@ header{
 
 }
 
-/*
-div .background{
-    background: linear-gradient(rgba(10, 12, 15, 0.75), rgba(6, 9, 15, 0.75));
-    z-index: 2;
-}
-*/
-
 .control-nintendo{
-    width: 400px;
-    height: 150px;
+    width: 600px;
+    height: 200px;
     background-color: rgb(218, 218, 218);
     transform: translate(-50%, -50%);
     position: fixed;
@@ -31,6 +24,8 @@ div .background{
     border-radius: 115px 115px 220px 220px;
     box-shadow: -20px -20px 20px rgba(82, 81, 81, 0.4);
 }
+
+
 h1{
     font-size: 12px;
     font-family: sans-serif;
@@ -40,17 +35,17 @@ h1{
 }
 
 .control-R{
-    width: 200px;
-    height: 200px;
+    width: 270px;
+    height: 270px;
     background-color: rgb(218, 218, 218);
-    transform: translate( 20%, -37%);
+    transform: translate( 28%, -37%);
     position: fixed;
     left: 50%;
     top: 50%;
-    border-radius: 100px;
-
-    
+    border-radius: 140px;
+   
 }
+
 
 .control-r{
     width: 170px;
@@ -63,97 +58,105 @@ h1{
     border-radius: 100px
     
 }
+
+
 .control-L{
-    width: 200px;
-    height: 200px;
-    background-color: rgb(218, 218, 218);;
-    transform: translate( -120%, -37%);
+    width: 270px;
+    height: 270px;
+    background-color: rgb(218, 218, 218);
+    transform: translate( -129%, -36%);
     position: fixed;
     left: 50%;
-    top: 50%;
-    border-radius: 100px;
-
+    top: 49%;
+    border-radius: 140px;
 
 }
 
 .control-l{
-    width: 130px;
-    height: 130px;
+    width: 220px;
+    height: 200px;
     background-color: rgba(131, 121, 121, 0.13);
-    transform: translate( 25%, 25%);
+    transform: translate( 11%, 20%);
     position: fixed;
     border-radius: 100px
     
 }
+
+
 .control-l-2{
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 190px;
     background-color: rgb(218, 218, 218);
-    transform: translate( 31%, 31%);
+    transform: translate( 17%, 24%);
     position: fixed;
     border-radius: 100px
 }
+
+
 .dir-up-down{
-    height: 25px;
-    width: 75px;
+    height: 35px;
+    width: 100px;
     background-color: rgb(170, 167, 167);
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    /*transform: translate(8%, 3%);*/
     transform: rotate(90deg);
     bottom: 45%;
     right: 32%;
 }
+
+
 .dir-l-r{
-    height: 25px;
-    width: 75px;
+    height: 35px;
+    width: 100px;
     background-color: rgb(170, 167, 167);
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    /*transform: translate(8%, 3%);*/
     bottom: 45%;
     right: 32%;
 }
 
-.control-r-alt{
-    width: 100px;
-    height: 20px;
-    background-color: rgb(183, 183, 183);
+.right-alt{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(134, 131, 131);
     transform: translate(55%, -400%);
     position: fixed;
-    left: 50%;
-    top: 50%;
+    left: 51%;
+    top: 51%;
     border-radius: 150px 150px;
 }
-.control-l-alt{
-    width: 100px;
-    height: 20px;
-    background-color: rgb(183, 183, 183);
+
+
+.left-alt{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(138, 131, 131);
     transform: translate(-155%, -400%);
     position: fixed;
-    left: 50%;
-    top: 50%;
+    left: 48%;
+    top: 51%;
     border-radius: 150px 150px;
 }
+
 
 .x-y{
     height: 40px;
     width: 95px;
     background-color: rgb(218, 218, 218);
     border-radius: 50px;
-    top: 57px;
-    left: 30px;
+    top: 90px;
+    left: 64px;
     position: fixed;
-    transform: translate(310%, 100%);
     transform: rotate(315deg);
     display: block;
 }
+
 
 .b-a{
     height: 40px;
@@ -168,6 +171,7 @@ h1{
     display: block;
 }
 
+
 .x-blue{
     background-color: rgb(100, 127, 250);
     height: 30px;
@@ -176,6 +180,8 @@ h1{
     position: fixed;
     transform: translate(40%, 17%);
 }
+
+
 .y-green{
     background-color: rgb(56, 190, 30);
     height: 30px;
@@ -184,6 +190,8 @@ h1{
     position: fixed;
     transform: translate(185%, 17%);
 }
+
+
 .b-yellow{
     background-color: rgb(245, 236, 106);
     height: 30px;
@@ -192,6 +200,8 @@ h1{
     position: fixed;
     transform: translate(40%, 17%);
 }
+
+
 .a-red{
     background-color: rgb(243, 65, 65);
     height: 30px;
@@ -208,73 +218,59 @@ h1{
     font-family: sans-serif;
     transform: translate(11%, 65%);
 }
+
+
 #y-button{
     text-align: center;
     color: white;
     font-family: sans-serif;
     transform: translate(-38%, 425%);
 }
+
+
 #a-button{
     text-align: center;
     color: white;
     font-family: sans-serif;
     transform: translate(40%, 145%);
 }
+
+
 #b-button{
     text-align: center;
     color: white;
     font-family: sans-serif;
     transform: translate(-10%, 490%);
 }
+
+
 .control-nintendo>.select{
-    height: 10px;
-    width: 33px;
+    height: 13px;
+    width: 40px;
     background-color: rgb(138, 131, 131);
     border-radius: 30px;
-    bottom: 30%;
-    left: 40%;
+    bottom: 20%;
+    left: 41%;
     position: absolute;
     transform: rotate(-50deg);
-    font-size: 7px;
+    font-size: 10px;
     font-family: sans-serif;
     color: black;
     
 }
+
+
 .control-nintendo>.start{
-    height: 10px;
-    width: 33px;
+    height: 13px;
+    width: 40px;
     background-color: rgb(138, 131, 131);
     border-radius: 30px;
-    bottom: 30%;
-    right: 40%;
+    bottom: 20%;
+    right: 41%;
     position: absolute;
     transform: rotate(-50deg);
-    font-size: 7px;
+    font-size: 10px;
     font-family: sans-serif;
     color: black;
     
 }
-/*    
-p{
-    font-size: 8px;
-    font-family: sans-serif;
-    color: black;
-    text-align: center;
-    align-items:
-    justify-content: space-between;
-}*/
-
-
-/*
-#blue{
-   
-}
-
-#green{
-
-}
-*/
-/*
-.cable{
-
-}*/
