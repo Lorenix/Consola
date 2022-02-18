@@ -6,9 +6,9 @@ header{
     font-family: 'Pacifico', cursive;
     font-family: 'Righteous', cursive;
     font-family: 'Seymour One', sans-serif;
-    font-size: 45px;
+    font-size: 55px;
     text-align: center;
-    color: rgb(34, 20, 20);
+    color: rgb(195, 36, 36);
     margin-top: 5rem;
 
 }
@@ -22,16 +22,22 @@ header{
     left: 50%;
     top: 50%;
     border-radius: 115px 115px 220px 220px;
-    box-shadow: -20px -20px 20px rgba(82, 81, 81, 0.4);
+    box-shadow: 25px -45px 20px rgba(82, 81, 81, 0.4);
 }
 
 
 h1{
-    font-size: 12px;
+    font-size: 16px;
     font-family: sans-serif;
     text-align: center;
-    margin-top: 15px;
-    color: rgb(90, 75, 88);
+    margin-top: 40px;
+    color: rgb(71, 57, 57);
+}
+
+
+img{
+    display: inline-block;
+    size: 5rem;
 }
 
 .control-R{
@@ -48,8 +54,8 @@ h1{
 
 
 .control-r{
-    width: 170px;
-    height: 170px;
+    width: 190px;
+    height: 190px;
     background-color: rgb(183, 183, 183);
     transform: translate( -50%, -50%);
     position: fixed;
@@ -150,8 +156,7 @@ h1{
     width: 95px;
     background-color: rgb(218, 218, 218);
     border-radius: 50px;
-    top: 90ls
-    px;
+    top: 90px;
     left: 64px;
     position: fixed;
     transform: rotate(315deg);
@@ -164,8 +169,8 @@ h1{
     width: 95px;
     background-color: rgb(218, 218, 218);
     border-radius: 50px;
-    bottom: 55px;
-    right: 28px;
+    bottom: 93px;
+    right: 64px;
     position: fixed;
     transform: translate(310%, 100%);
     transform: rotate(315deg);
