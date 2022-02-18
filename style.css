@@ -40,7 +40,7 @@ img{
     size: 5rem;
 }
 
-.control-R{
+.baseRight{
     width: 270px;
     height: 270px;
     background-color: rgb(218, 218, 218);
@@ -66,7 +66,7 @@ img{
 }
 
 
-.control-L{
+.base-left{
     width: 270px;
     height: 270px;
     background-color: rgb(218, 218, 218);
@@ -78,7 +78,7 @@ img{
 
 }
 
-.control-l{
+.base-1{
     width: 220px;
     height: 200px;
     background-color: rgba(131, 121, 121, 0.13);
@@ -89,7 +89,7 @@ img{
 }
 
 
-.control-l-2{
+.base-2{
     width: 200px;
     height: 190px;
     background-color: rgb(218, 218, 218);
@@ -99,7 +99,7 @@ img{
 }
 
 
-.dir-up-down{
+.up-down{
     height: 35px;
     width: 100px;
     background-color: rgb(170, 167, 167);
@@ -114,7 +114,7 @@ img{
 }
 
 
-.dir-l-r{
+.left-right{
     height: 35px;
     width: 100px;
     background-color: rgb(170, 167, 167);
@@ -127,25 +127,25 @@ img{
     right: 32%;
 }
 
-.right-alt{
+.right-altern{
     width: 150px;
     height: 30px;
     background-color: rgb(134, 131, 131);
     transform: translate(55%, -400%);
-    position: fixed;
+    position: absolute;
     left: 51%;
     top: 51%;
     border-radius: 150px 150px;
 }
 
 
-.left-alt{
+.left-altern{
     width: 150px;
     height: 30px;
     background-color: rgb(138, 131, 131);
     transform: translate(-155%, -400%);
-    position: fixed;
-    left: 48%;
+    position: absolute;
+    left: 49%;
     top: 51%;
     border-radius: 150px 150px;
 }
@@ -218,7 +218,7 @@ img{
 }
 
 
-#x-button{
+#x-caracter{
     text-align: center;
     color: white;
     font-family: sans-serif;
@@ -226,7 +226,7 @@ img{
 }
 
 
-#y-button{
+#y-caracter{
     text-align: center;
     color: white;
     font-family: sans-serif;
@@ -234,7 +234,7 @@ img{
 }
 
 
-#a-button{
+#a-caracter{
     text-align: center;
     color: white;
     font-family: sans-serif;
@@ -242,7 +242,7 @@ img{
 }
 
 
-#b-button{
+#b-caracter{
     text-align: center;
     color: white;
     font-family: sans-serif;
@@ -250,7 +250,7 @@ img{
 }
 
 
-.control-nintendo>.select{
+.control-nintendo>.select-button{
     height: 13px;
     width: 40px;
     background-color: rgb(138, 131, 131);
@@ -266,7 +266,7 @@ img{
 }
 
 
-.control-nintendo>.start{
+.control-nintendo>.start-button{
     height: 13px;
     width: 40px;
     background-color: rgb(138, 131, 131);
