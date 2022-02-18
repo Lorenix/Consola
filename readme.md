@@ -45,7 +45,5 @@ Para responder a esta pregunta utilizamos una lista desordenada:
 Respuesta de la tercera pregunta con *palabras en cursiva*.
 4. **Cuarta pregunta en negrita**
 | Titular 1 en la cabecera de la tabla | Titular 2 en la cabecera de la tabla | Titular 3 en la cabecera de la tabla
-|:--------------|:-------------:|--------------:|
-| Texto alineado a la izquierda, texto alineado al centro, texto alineado a la derecha.
 
 Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator
